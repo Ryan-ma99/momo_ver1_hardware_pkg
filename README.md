@@ -1,5 +1,6 @@
 # momo_ver1_hardware_pkg
 이 패키지는 momo_ver1 을 가동시키기 위한 패키지 입니다.
+위 패키지를 [workspace]/src 에 설치
 
 설치방법
 1. dynamixel_hardware_interface 설치
