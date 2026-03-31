@@ -1,0 +1,25 @@
+# Initial joint positions for MOMO robot
+# All angles are in radians
+# This configuration sets the robot in a neutral/home position
+
+initial_positions:
+  # Head joints
+  head_yaw_joint: 0.0      # Head facing forward
+  head_pitch_joint: 0.0    # Head level (no tilt)
+  
+  # Left arm joints (6-DOF)
+  left_arm_joint1: 0.0     # Shoulder rotation
+  left_arm_joint2: 0.0     # Shoulder pitch (slightly forward)
+  left_arm_joint3: 0.0     # Upper arm rotation
+  left_arm_joint4: 0.0     # Elbow bend (90 degrees = π/2 ≈ 1.57, using 1.0 for comfortable position)
+  left_arm_joint5: 0.0     # Wrist rotation
+  left_arm_joint6: 0.0     # Wrist pitch
+  
+  # Right arm joints (6-DOF) - mirrored configuration
+  right_arm_joint1: 0.0    # Shoulder rotation
+  right_arm_joint2: 0.0   # Shoulder pitch (slightly forward)
+  right_arm_joint3: 0.0    # Upper arm rotation  
+  right_arm_joint4: 0.0    # Elbow bend (comfortable position)
+  right_arm_joint5: 0.0    # Wrist rotation
+  right_arm_joint6: 0.0    # Wrist pitch
+
