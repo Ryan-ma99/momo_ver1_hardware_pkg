@@ -52,3 +52,13 @@ sudo apt install ros-humble-moveit
 colcon build
 source install/setup.bash
 ~~~
+4. Test
+ros2_control 실행
+~~~
+ros2 launch momo_pkg momo_robot_ros_control.launch.py
+~~~
+간단한 joint publisher gui 실행
+~~~
+ros2 run momo_pkg momo_control_gui.py 
+~~~
+
